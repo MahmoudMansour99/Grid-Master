@@ -1,0 +1,99 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 991px) {
+  /* __________Parent Styling__________ */
+  .parent {
+    grid-template-columns: 1fr 1fr 1fr 25%;
+
+    grid-template-rows: auto 1fr 1fr 1fr auto auto auto auto;
+  }
+
+  /* ____________Block 1 Styles___________ */
+  .block-1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  /* ____________Block 2 Styles___________ */
+  .block-2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .block-2 h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  /* ____________Block 3 Styles___________ */
+  .block-3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  /* ____________Block 4 Styles___________ */
+  .block-4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+
+  /* ____________Block 5 Styles___________ */
+  .block-5 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+  }
+
+  /* ____________Block 6 Styles___________ */
+  .block-6 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  /* ____________Block 7 Styles___________ */
+  .block-7 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+  }
+
+  /* ____________Block 8 Styles___________ */
+  .block-8 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+
+  /* ____________Block 9 Styles___________ */
+  .block-9 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  /* ____________Block 10 Styles___________ */
+  .block-10 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 8;
+    grid-row-end: 9;
+  }
+}
